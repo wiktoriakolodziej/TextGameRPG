@@ -11,3 +11,4 @@ namespace TextGameRPG
         void Execute();
     }
 }
+

@@ -12,3 +12,4 @@ namespace TextGameRPG
         ICommand GetCommand();
     }
 }
+

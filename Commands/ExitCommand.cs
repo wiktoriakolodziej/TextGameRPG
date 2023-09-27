@@ -18,4 +18,5 @@ namespace TextGameRPG
             _manager.Exit();
         }
     }
+
 }

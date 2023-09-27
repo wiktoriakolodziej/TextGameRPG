@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "FvG445uD8dCbB4khsCaSvI48Ld0oYXkpVMj+xNADULWHq96AcC3N+ndQxGkUJq+r+76Mp+k1OOZ6CN3+I3LT6A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dgdaw\\source\\repos\\TextGameRPG\\TextGameRPG.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dgdaw\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\dgdaw\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\dgdaw\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\dgdaw\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.21\\microsoft.netcore.app.host.win-x64.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}

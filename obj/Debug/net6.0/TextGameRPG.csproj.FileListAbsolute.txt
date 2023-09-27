@@ -1,0 +1,15 @@
+C:\Users\dgdaw\source\repos\TextGameRPG\bin\Debug\net6.0\TextGameRPG.exe
+C:\Users\dgdaw\source\repos\TextGameRPG\bin\Debug\net6.0\TextGameRPG.deps.json
+C:\Users\dgdaw\source\repos\TextGameRPG\bin\Debug\net6.0\TextGameRPG.runtimeconfig.json
+C:\Users\dgdaw\source\repos\TextGameRPG\bin\Debug\net6.0\TextGameRPG.dll
+C:\Users\dgdaw\source\repos\TextGameRPG\bin\Debug\net6.0\TextGameRPG.pdb
+C:\Users\dgdaw\source\repos\TextGameRPG\obj\Debug\net6.0\TextGameRPG.csproj.AssemblyReference.cache
+C:\Users\dgdaw\source\repos\TextGameRPG\obj\Debug\net6.0\TextGameRPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dgdaw\source\repos\TextGameRPG\obj\Debug\net6.0\TextGameRPG.AssemblyInfoInputs.cache
+C:\Users\dgdaw\source\repos\TextGameRPG\obj\Debug\net6.0\TextGameRPG.AssemblyInfo.cs
+C:\Users\dgdaw\source\repos\TextGameRPG\obj\Debug\net6.0\TextGameRPG.csproj.CoreCompileInputs.cache
+C:\Users\dgdaw\source\repos\TextGameRPG\obj\Debug\net6.0\TextGameRPG.dll
+C:\Users\dgdaw\source\repos\TextGameRPG\obj\Debug\net6.0\refint\TextGameRPG.dll
+C:\Users\dgdaw\source\repos\TextGameRPG\obj\Debug\net6.0\TextGameRPG.pdb
+C:\Users\dgdaw\source\repos\TextGameRPG\obj\Debug\net6.0\TextGameRPG.genruntimeconfig.cache
+C:\Users\dgdaw\source\repos\TextGameRPG\obj\Debug\net6.0\ref\TextGameRPG.dll

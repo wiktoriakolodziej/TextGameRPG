@@ -10,7 +10,12 @@ namespace TextGameRPG
     {
         private IState _state;
         private bool _run;
+        public Engine Engine { get; private set; }
 
+        public StateManager(Engine engine)
+        {
+            Engine = engine;
+        }
         public void SwitchState(IState state)
         {
             _state = state;

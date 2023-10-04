@@ -7,12 +7,15 @@ using TextGameRPG.Commands;
 
 namespace TextGameRPG.States
 {
-    internal class LoadFileState : IState
+    internal class LoadGameState : IState
     {
         private StateManager _manager;
-        public LoadFileState(StateManager manager)
+        private Engine _engine;
+        public LoadGameState(StateManager manager, Engine engine)
         {
             _manager = manager;
+            _engine = engine;
+
         }
 
         public ICommand GetCommand()
@@ -22,9 +25,9 @@ namespace TextGameRPG.States
             {
                 return new SwitchStatetCommand(_manager, new LoadingState(new MainMenuState(_manager), _manager));
             }
-            if(file != null && File.Exists("C:\\Users\\dgdaw\\source\\repos\\TextGameRPG\\" + file))
+            if(file != null && File.Exists(file))
             {
-                return new LoadFileCommand(file, _manager);
+                return new LoadGameCommand(file, _manager, _engine);
             }
             return new InvalidCommand();
 

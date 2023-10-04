@@ -12,8 +12,9 @@ namespace TextGameRPG
     {
         static void Main(string[] args)
         {
+            var engine = new Engine();
+            var stateManager = new StateManager(engine);
 
-            var stateManager = new StateManager();
             stateManager.Run(new MainMenuState(stateManager));
 
             Console.ReadKey();

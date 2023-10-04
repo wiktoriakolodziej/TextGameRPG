@@ -8,13 +8,15 @@ using TextGameRPG.Commands;
 
 namespace TextGameRPG.States
 {
-    internal class SaveFileState : IState
+    internal class SaveGameState : IState
     {
         private IState _lastState;
         private StateManager _stateManager;
-        public SaveFileState(IState lastState, StateManager stateManager) { 
+        private Engine _engine;
+        public SaveGameState(IState lastState, StateManager stateManager, Engine engine) { 
             _lastState = lastState;
             _stateManager = stateManager;
+            _engine = engine;
         }
         public ICommand GetCommand()
         {
@@ -27,7 +29,7 @@ namespace TextGameRPG.States
             {
                 return new InvalidCommand();
             }
-            return new SaveFileCommand(input, _stateManager);
+            return new SaveGameCommand(input, _stateManager, _engine);
 
         }
 
